@@ -1,0 +1,353 @@
+2015-06-01 21:46:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2015-06-01 21:46:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-06-01 21:46:08 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.40&dbv=5.1.72&instm=main%2C15.0.15%2CN%3Bsale%2C14.11.9%2CN%3Bscale%2C14.5.2%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.0.8%2CN%3Bsender%2C15.0.2%2CN%3Bbitrix.eshop%2C15.0.0%2CN%3Bblog%2C15.0.4%2CN%3Bsocialservices%2C15.5.0%2CN%3Bmobileapp%2C15.0.5%2CN%3Bhighloadblock%2C15.0.3%2CN%3Biblock%2C15.0.7%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.0.5%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C15.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.0.3%2CN%3Bcatalog%2C15.0.9%2CN%3Bbitrixcloud%2C15.0.1%2CN%3Bclouds%2C15.0.1%2CN%3Bform%2C15.0.1%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C14.5.4%2CN%3Bseo%2C15.0.4%2CN%3Bforum%2C15.0.7%2CN%3Bsecurity%2C15.0.10%2CN%3Bcurrency%2C15.0.4%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2015-06-01 21:46:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-06-01 21:46:08 -  - TIME GetUpdatesList(request) 0.307 sec
+2015-06-01 21:46:08 -  - exec CUpdateClientPartner::ParseServerData
+2015-06-01 21:46:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-06-01 21:46:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-06-01 21:46:17 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.40&dbv=5.1.72&instm=main%2C15.0.15%2CN%3Bsale%2C14.11.9%2CN%3Bscale%2C14.5.2%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.0.8%2CN%3Bsender%2C15.0.2%2CN%3Bbitrix.eshop%2C15.0.0%2CN%3Bblog%2C15.0.4%2CN%3Bsocialservices%2C15.5.0%2CN%3Bmobileapp%2C15.0.5%2CN%3Bhighloadblock%2C15.0.3%2CN%3Biblock%2C15.0.7%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.0.5%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C15.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.0.3%2CN%3Bcatalog%2C15.0.9%2CN%3Bbitrixcloud%2C15.0.1%2CN%3Bclouds%2C15.0.1%2CN%3Bform%2C15.0.1%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C14.5.4%2CN%3Bseo%2C15.0.4%2CN%3Bforum%2C15.0.7%2CN%3Bsecurity%2C15.0.10%2CN%3Bcurrency%2C15.0.4%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2015-06-01 21:46:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-06-01 21:46:17 -  - TIME LoadModulesUpdates(request) 0.291 sec
+2015-06-01 21:46:17 -  - exec CUpdateClientPartner::ParseServerData
+2015-06-01 21:46:17 - LMU01 - LoadModulesUpdates-Step
+2015-06-01 21:46:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-06-01 21:46:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-06-01 21:46:18 -  - exec CUpdateClientPartner::ParseServerData
+2015-06-01 21:46:26 - DOWNLOAD - Time - 8.2849221229553 sec
+2015-06-01 21:46:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-06-01 21:46:28 -  - TIME UnGzipArchive 2.164 sec
+2015-06-01 21:46:28 - CSURUS1 - Run updater '/bitrix/updates/update_m1433184386/bitrix.eshop/updater15.0.1.php'
+2015-06-01 21:46:30 -  - TIME UpdateStepModules 1.349 sec
+2015-06-01 21:46:30 - UPD_SUCCESS - Updated: bitrix.eshop (15.0.1)<br><li>Незначительные изменения.
+2015-06-01 21:46:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-06-01 21:46:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-06-01 21:46:30 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.40&dbv=5.1.72&instm=main%2C15.0.15%2CN%3Bsale%2C14.11.9%2CN%3Bscale%2C14.5.2%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.0.8%2CN%3Bsender%2C15.0.2%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.0.4%2CN%3Bsocialservices%2C15.5.0%2CN%3Bmobileapp%2C15.0.5%2CN%3Bhighloadblock%2C15.0.3%2CN%3Biblock%2C15.0.7%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.0.5%2CN%3Bvote%2C15.0.0%2CN%3Bsearch%2C15.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.0.3%2CN%3Bcatalog%2C15.0.9%2CN%3Bbitrixcloud%2C15.0.1%2CN%3Bclouds%2C15.0.1%2CN%3Bform%2C15.0.1%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C14.5.4%2CN%3Bseo%2C15.0.4%2CN%3Bforum%2C15.0.7%2CN%3Bsecurity%2C15.0.10%2CN%3Bcurrency%2C15.0.4%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2015-06-01 21:46:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-06-01 21:46:30 -  - TIME LoadModulesUpdates(request) 0.297 sec
+2015-06-01 21:46:30 -  - exec CUpdateClientPartner::ParseServerData
+2015-06-01 21:46:30 - STEP - Finish - NOUPDATES
+2015-06-01 21:46:30 - STEP - Finish - NOUPDATES
+2015-12-24 10:46:05 -  - exec CUpdateClientPartner::GetUpdatesList
+2015-12-24 10:46:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:05 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Cimaginweb.sms&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:05 -  - TIME GetUpdatesList(request) 0.513 sec
+2015-12-24 10:46:05 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:12 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:13 -  - TIME LoadModulesUpdates(request) 0.39 sec
+2015-12-24 10:46:13 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:13 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:13 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:14 - DOWNLOAD - Time - 0.74321603775024 sec
+2015-12-24 10:46:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:14 -  - TIME UnGzipArchive 0.024 sec
+2015-12-24 10:46:14 -  - TIME UpdateStepModules 0.028 sec
+2015-12-24 10:46:14 - UPD_SUCCESS - Updated: imaginweb.sms
+2015-12-24 10:46:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:14 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C4.5.0%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:15 -  - TIME LoadModulesUpdates(request) 0.589 sec
+2015-12-24 10:46:15 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:15 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:15 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:16 - DOWNLOAD - Time - 0.79379987716675 sec
+2015-12-24 10:46:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:16 -  - TIME UnGzipArchive 0.032 sec
+2015-12-24 10:46:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946776/imaginweb.sms/updater4.5.1.php'
+2015-12-24 10:46:16 -  - TIME UpdateStepModules 0.04 sec
+2015-12-24 10:46:16 - UPD_SUCCESS - Updated: imaginweb.sms (4.5.1)<br>1) изменена обработка соединений https для шлюза kompeito 2) Исправлена ошибка выбора имени отправителя для многосайтовости при смене статусов заказов из административной части 3) Добавлен новый шаблон, #ACCOUNT_NUMBER# - генерированный номер заказа
+2015-12-24 10:46:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:16 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C4.5.1%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:17 -  - TIME LoadModulesUpdates(request) 0.512 sec
+2015-12-24 10:46:17 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:17 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:17 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:18 - DOWNLOAD - Time - 0.6401219367981 sec
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:18 -  - TIME UnGzipArchive 0.005 sec
+2015-12-24 10:46:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946778/imaginweb.sms/updater4.5.4.php'
+2015-12-24 10:46:18 -  - TIME UpdateStepModules 0.01 sec
+2015-12-24 10:46:18 - UPD_SUCCESS - Updated: imaginweb.sms (4.5.4)<br>Обновлено API шлюза am4u.ru.
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:18 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C4.5.4%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:18 -  - TIME LoadModulesUpdates(request) 0.469 sec
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:18 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:19 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:19 - DOWNLOAD - Time - 0.90433692932129 sec
+2015-12-24 10:46:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:19 -  - TIME UnGzipArchive 0.025 sec
+2015-12-24 10:46:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946779/imaginweb.sms/updater4.7.0.php'
+2015-12-24 10:46:19 -  - TIME UpdateStepModules 0.04 sec
+2015-12-24 10:46:19 - UPD_SUCCESS - Updated: imaginweb.sms (4.7.0)<br>Добавлен новый шлюз red_sms, В настройках модуля добавлена возможность отправки смс.
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:20 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C4.7.0%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:20 -  - TIME LoadModulesUpdates(request) 0.442 sec
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:20 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:20 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:21 - DOWNLOAD - Time - 0.47705078125 sec
+2015-12-24 10:46:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:21 -  - TIME UnGzipArchive 0.01 sec
+2015-12-24 10:46:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946781/imaginweb.sms/updater5.2.1.php'
+2015-12-24 10:46:21 -  - TIME UpdateStepModules 0.017 sec
+2015-12-24 10:46:21 - UPD_SUCCESS - Updated: imaginweb.sms (5.2.1)<br>Подключены автоматические звонки.
+2015-12-24 10:46:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:21 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C5.2.1%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:22 -  - TIME LoadModulesUpdates(request) 0.569 sec
+2015-12-24 10:46:22 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:22 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:22 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:23 - DOWNLOAD - Time - 0.51989507675171 sec
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:23 -  - TIME UnGzipArchive 0.007 sec
+2015-12-24 10:46:23 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946783/imaginweb.sms/updater5.7.5.php'
+2015-12-24 10:46:23 -  - TIME UpdateStepModules 0.012 sec
+2015-12-24 10:46:23 - UPD_SUCCESS - Updated: imaginweb.sms (5.7.5)<br>Подключен новый шлюз smsdirect.ru.
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:23 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C5.7.5%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:23 -  - TIME LoadModulesUpdates(request) 0.343 sec
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:23 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:23 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:24 - DOWNLOAD - Time - 0.47380805015564 sec
+2015-12-24 10:46:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:24 -  - TIME UnGzipArchive 0.003 sec
+2015-12-24 10:46:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946784/imaginweb.sms/updater5.8.6.php'
+2015-12-24 10:46:24 -  - TIME UpdateStepModules 0.003 sec
+2015-12-24 10:46:24 - UPD_SUCCESS - Updated: imaginweb.sms (5.8.6)<br>Отныне на каждом сайте можно использовать свой шлюз, это идеально пододет для транснациональных компаний, для использвоания разных шлюзов для различных стран. 
+2015-12-24 10:46:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:24 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C5.8.6%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:25 -  - TIME LoadModulesUpdates(request) 0.422 sec
+2015-12-24 10:46:25 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:25 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:25 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:25 - DOWNLOAD - Time - 0.42640900611877 sec
+2015-12-24 10:46:25 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:25 -  - TIME UnGzipArchive 0.002 sec
+2015-12-24 10:46:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946785/imaginweb.sms/updater5.8.7.php'
+2015-12-24 10:46:25 -  - TIME UpdateStepModules 0.002 sec
+2015-12-24 10:46:25 - UPD_SUCCESS - Updated: imaginweb.sms (5.8.7)<br>Исправление ошибок.
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:26 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C5.8.7%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:26 -  - TIME LoadModulesUpdates(request) 0.446 sec
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:26 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:26 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:27 - DOWNLOAD - Time - 0.4505820274353 sec
+2015-12-24 10:46:27 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:27 -  - TIME UnGzipArchive 0.002 sec
+2015-12-24 10:46:27 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946787/imaginweb.sms/updater5.8.8.php'
+2015-12-24 10:46:27 -  - TIME UpdateStepModules 0.002 sec
+2015-12-24 10:46:27 - UPD_SUCCESS - Updated: imaginweb.sms (5.8.8)<br>Исправление ошибок.
+2015-12-24 10:46:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:27 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C5.8.8%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:27 -  - TIME LoadModulesUpdates(request) 0.387 sec
+2015-12-24 10:46:27 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:27 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:28 - DOWNLOAD - Time - 0.5180549621582 sec
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:28 -  - TIME UnGzipArchive 0.002 sec
+2015-12-24 10:46:28 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946788/imaginweb.sms/updater5.8.9.php'
+2015-12-24 10:46:28 -  - TIME UpdateStepModules 0.002 sec
+2015-12-24 10:46:28 - UPD_SUCCESS - Updated: imaginweb.sms (5.8.9)<br>Появился шлюз по умолчанию, это шлюз от первого сата.
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:28 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C5.8.9%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:29 -  - TIME LoadModulesUpdates(request) 0.543 sec
+2015-12-24 10:46:29 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:29 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:29 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:30 - DOWNLOAD - Time - 0.80699610710144 sec
+2015-12-24 10:46:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:30 -  - TIME UnGzipArchive 0.031 sec
+2015-12-24 10:46:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946790/imaginweb.sms/updater6.0.0.php'
+2015-12-24 10:46:30 -  - TIME UpdateStepModules 0.143 sec
+2015-12-24 10:46:30 - UPD_SUCCESS - Updated: imaginweb.sms (6.0.0)<br>Добавлен новый шлюз QUICKTEL. Исправлена ошибка переименовывания стандартного модуля рассылки. Добавлена возможность использовать любые поля заказа, в том числе и tracking_number.
+2015-12-24 10:46:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:30 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C6.0.0%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:31 -  - TIME LoadModulesUpdates(request) 0.435 sec
+2015-12-24 10:46:31 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:31 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:31 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:32 - DOWNLOAD - Time - 0.89732694625854 sec
+2015-12-24 10:46:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:32 -  - TIME UnGzipArchive 0.035 sec
+2015-12-24 10:46:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946792/imaginweb.sms/updater6.0.1.php'
+2015-12-24 10:46:32 -  - TIME UpdateStepModules 0.073 sec
+2015-12-24 10:46:32 - UPD_SUCCESS - Updated: imaginweb.sms (6.0.1)<br>Добавлен второй личный кабинет redsms.ru Исправлено подключение к шлюзу sms-sending.ru
+2015-12-24 10:46:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:32 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C6.0.1%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:33 -  - TIME LoadModulesUpdates(request) 0.541 sec
+2015-12-24 10:46:33 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:33 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:33 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:34 - DOWNLOAD - Time - 0.54583096504211 sec
+2015-12-24 10:46:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:34 -  - TIME UnGzipArchive 0.002 sec
+2015-12-24 10:46:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946794/imaginweb.sms/updater6.0.2.php'
+2015-12-24 10:46:34 -  - TIME UpdateStepModules 0.002 sec
+2015-12-24 10:46:34 - UPD_SUCCESS - Updated: imaginweb.sms (6.0.2)<br>Исправлена ошибка, при сохранении опции \"Сохранять пароль в свойстве пользователя\". 
+2015-12-24 10:46:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:34 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C6.0.2%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:35 -  - TIME LoadModulesUpdates(request) 0.635 sec
+2015-12-24 10:46:35 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:35 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:35 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:35 - DOWNLOAD - Time - 0.48641395568848 sec
+2015-12-24 10:46:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:35 -  - TIME UnGzipArchive 0.002 sec
+2015-12-24 10:46:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946795/imaginweb.sms/updater6.0.3.php'
+2015-12-24 10:46:35 -  - TIME UpdateStepModules 0.002 sec
+2015-12-24 10:46:35 - UPD_SUCCESS - Updated: imaginweb.sms (6.0.3)<br>Шлюз по умолчанию (сервис для отправки СМС и отключение) - новая опция
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:36 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C6.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:36 -  - TIME LoadModulesUpdates(request) 0.498 sec
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:36 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:36 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:37 - DOWNLOAD - Time - 0.5119891166687 sec
+2015-12-24 10:46:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:37 -  - TIME UnGzipArchive 0.008 sec
+2015-12-24 10:46:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946797/imaginweb.sms/updater7.0.1.php'
+2015-12-24 10:46:37 -  - TIME UpdateStepModules 0.011 sec
+2015-12-24 10:46:37 - UPD_SUCCESS - Updated: imaginweb.sms (7.0.1)<br>Добавлен шлюз p1sms.ru; А также добавлена опция, выполнять смс как php код, а это значит, что можно в текстах сообщений использовать php выражения.
+2015-12-24 10:46:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:37 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C7.0.1%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:38 -  - TIME LoadModulesUpdates(request) 0.496 sec
+2015-12-24 10:46:38 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:38 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:38 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:38 - DOWNLOAD - Time - 0.67259407043457 sec
+2015-12-24 10:46:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:38 -  - TIME UnGzipArchive 0.008 sec
+2015-12-24 10:46:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946798/imaginweb.sms/updater7.0.2.php'
+2015-12-24 10:46:38 -  - TIME UpdateStepModules 0.01 sec
+2015-12-24 10:46:38 - UPD_SUCCESS - Updated: imaginweb.sms (7.0.2)<br>Не значительные улучшения.
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:39 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C7.0.2%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:39 -  - TIME LoadModulesUpdates(request) 0.474 sec
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:39 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:39 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:40 - DOWNLOAD - Time - 0.52415204048157 sec
+2015-12-24 10:46:40 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:40 -  - TIME UnGzipArchive 0.003 sec
+2015-12-24 10:46:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946800/imaginweb.sms/updater7.0.3.php'
+2015-12-24 10:46:40 -  - TIME UpdateStepModules 0.003 sec
+2015-12-24 10:46:40 - UPD_SUCCESS - Updated: imaginweb.sms (7.0.3)<br>Доработки, всвязи с обновлением 1С Битрикс добавлена обработка свойств типа \'STRING\',\'NUMBER\'
+2015-12-24 10:46:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:40 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C7.0.3%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:41 -  - TIME LoadModulesUpdates(request) 0.879 sec
+2015-12-24 10:46:41 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:41 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:41 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:42 - DOWNLOAD - Time - 0.7407751083374 sec
+2015-12-24 10:46:42 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:42 -  - TIME UnGzipArchive 0.011 sec
+2015-12-24 10:46:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946802/imaginweb.sms/updater7.0.4.php'
+2015-12-24 10:46:42 -  - TIME UpdateStepModules 0.014 sec
+2015-12-24 10:46:42 - UPD_SUCCESS - Updated: imaginweb.sms (7.0.4)<br>Улучшение: запрос на баланс идет только у выбранных шлюзов. Исправлена ошибка переименования меню.
+2015-12-24 10:46:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:42 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C7.0.4%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:43 -  - TIME LoadModulesUpdates(request) 0.46 sec
+2015-12-24 10:46:43 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:43 - LMU01 - LoadModulesUpdates-Step
+2015-12-24 10:46:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:43 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:43 - DOWNLOAD - Time - 0.35508298873901 sec
+2015-12-24 10:46:43 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-12-24 10:46:43 -  - TIME UnGzipArchive 0.001 sec
+2015-12-24 10:46:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1450946803/imaginweb.sms/updater7.0.5.php'
+2015-12-24 10:46:43 -  - TIME UpdateStepModules 0.002 sec
+2015-12-24 10:46:43 - UPD_SUCCESS - Updated: imaginweb.sms (7.0.5)<br> Важное и обязательное дополнение к предыдущему обновлению 7.0.4 исправление некоторых ошибок.
+2015-12-24 10:46:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2015-12-24 10:46:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-12-24 10:46:44 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.9%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C7.0.5%2CN%3Bscale%2C14.5.2%2CN%3Bconversion%2C15.5.5%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.3%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.7%2CN%3Bhighloadblock%2C15.5.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C15.0.3%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C15.5.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C14.0.0%2CN%3Bperfmon%2C15.5.1%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bclouds%2C15.5.1%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.5%2CN%3Bforum%2C15.5.2%2CN%3Bsecurity%2C15.5.4%2CN%3Bcurrency%2C15.5.2%2CN%3Bphotogallery%2C15.0.0%2CN&reqm=imaginweb.sms&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-12-24 10:46:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-12-24 10:46:44 -  - TIME LoadModulesUpdates(request) 0.371 sec
+2015-12-24 10:46:44 -  - exec CUpdateClientPartner::ParseServerData
+2015-12-24 10:46:44 - STEP - Finish - NOUPDATES
+2015-12-24 10:46:44 - STEP - Finish - NOUPDATES
+2016-02-29 17:34:14 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-02-29 17:34:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-02-29 17:34:14 -  - utf=N&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=harmony.bosjack.in.ua&LICENSE_KEY=X&SUPD_STS=2&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.4.45&dbv=5.6.27&instm=main%2C15.5.10%2CN%3Bsale%2C14.11.19%2CN%3Bimaginweb.sms%2C7.0.5%2CN%3Bscale%2C16.0.0%2CN%3Bconversion%2C15.5.6%2CN%3Babtest%2C15.5.5%2CN%3Bsubscribe%2C15.0.2%2CN%3Bfileman%2C16.0.0%2CN%3Bsender%2C15.5.3%2CN%3Bbitrix.eshop%2C15.0.1%2CN%3Bblog%2C15.5.4%2CN%3Bsocialservices%2C15.5.3%2CN%3Bmobileapp%2C15.5.8%2CN%3Bhighloadblock%2C16.0.0%2CN%3Biblock%2C15.5.8%2CN%3Bstoreassist%2C16.0.0%2CN%3Beshopapp%2C15.0.0%2CN%3Bpull%2C15.5.8%2CN%3Bvote%2C15.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bcatalog%2C15.5.0%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bclouds%2C16.0.0%2CN%3Bform%2C15.0.2%2CN%3Btranslate%2C14.0.0%2CN%3Breport%2C15.0.0%2CN%3Bseo%2C15.5.6%2CN%3Bforum%2C15.5.3%2CN%3Bsecurity%2C16.0.1%2CN%3Bcurrency%2C16.0.0%2CN%3Bphotogallery%2C16.0.1%2CN&reqm=imaginweb.sms%2Cbitrix.eshop%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-02-29 17:34:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-02-29 17:34:22 -  - TIME GetUpdatesList(request) 7.874 sec
+2016-02-29 17:34:22 -  - exec CUpdateClientPartner::ParseServerData
